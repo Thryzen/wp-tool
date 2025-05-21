@@ -8,13 +8,18 @@
 
 ## ✨ Features
 
-- **📩 Inline Email Sender**  
+* **📩 Inline Email Sender**
   Add a customizable email-sending form directly inside your posts or pages using a shortcode.
 
-- **🔐 User Login Restriction**  
+* **🔐 User Login Restriction**
   Prevent non-administrator users from logging into the WordPress admin area.
 
-- **🛠️ Extensible by Design**  
+* **🌍 Display IP Location in Comments (Experimental)**
+  Non-invasively show the IP-based location next to each commenter's username beneath posts.
+
+  > Currently suitable for sites with a small number of comments per post. This feature is still in an experimental phase.
+
+* **🛠️ Extensible by Design**
   This plugin is under continuous development, and new features will be added as needed based on personal or project-specific requirements.
 
 ---
@@ -35,7 +40,7 @@ Use the following shortcode in any post or page to display the email-sending com
 
 ```plaintext
 [send_email_form]
-````
+```
 
 > Additional options and customization may be added in future updates.
 
