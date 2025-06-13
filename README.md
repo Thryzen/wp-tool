@@ -19,6 +19,11 @@
 
   > Currently suitable for sites with a small number of comments per post. This feature is still in an experimental phase.
 
+* **💬 Tooltip-Style Inline Annotations**
+  Add brief explanations for terms or concepts directly within the text.
+  On desktop, hovering will show the annotation; on mobile, users can tap to reveal it.
+  Helps clarify without disrupting the article’s structure or flow.
+
 * **🛠️ Extensible by Design**
   This plugin is under continuous development, and new features will be added as needed based on personal or project-specific requirements.
 
@@ -43,6 +48,16 @@ Use the following shortcode in any post or page to display the email-sending com
 ```
 
 > Additional options and customization may be added in future updates.
+
+### Add Tooltip Annotations
+
+Use this shortcode to annotate terms inline with additional explanations:
+
+```plaintext
+[tooltip tip="Your explanation here"]Text to annotate[/tooltip]
+```
+
+The explanation appears on hover (desktop) or tap (mobile), allowing you to add context without breaking the reading rhythm.
 
 ---
 
